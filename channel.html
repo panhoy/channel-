@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Channel Mockup - Complete</title>
+  <style>
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f0f0f;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+/* Channel Header */
+.channel-header {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+  padding: 50px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.channel-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ff4757;
+  box-shadow: 0 0 20px rgba(255, 71, 87, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.channel-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(255, 71, 87, 0.8);
+}
+
+.channel-name {
+  font-size: 32px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+  color: #ff4757;
+}
+
+.subscriber-count {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Video Grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video {
+  background: #1e1e1e;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.video a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.video:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(255, 71, 87, 0.6);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.video-title {
+  font-size: 18px;
+  margin: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(255, 0, 0);
+  margin: 10px 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
+  }
+
+  .channel-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .channel-name {
+    font-size: 28px;
+  }
+
+  .subscriber-count {
+    font-size: 16px;
+    color: rgb(0, 255, 34);
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="channel-header">
+    <img src="/photo/bl.jpg" alt="Channel Logo" class="channel-logo">
+    <h1 class="channel-name">LYBA YouTube Channel</h1>
+    <p class="subscriber-count">143K Subscribers</p>
+  </div>
+  <div class="video-grid">
+    <div class="video">
+      <a href="https://www.youtube.com/@LYBAanime">
+        <img src="/photo/byla.jpg" alt="Video Thumbnail" class="video-thumbnail">
+        <p class="video-title"> Videos 29</p>
+        <p class="video-stats">Subscribers: 36.8K</p>
+      </a>
+    </div>
+    <div class="video">
+      <a href="https://www.youtube.com/@L2Bsomray">
+        <img src="/photo/l2.jpg" alt="Video Thumbnail" class="video-thumbnail">
+        <p class="video-title">Video 6</p>
+        <p class="video-stats">Subscribers: 24.5K</p>
+      </a>
+    </div>
+    <div class="video">
+      <a href="https://www.youtube.com/@LYLUAnime">
+        <img src="/photo/lyla.jpg" alt="Video Thumbnail" class="video-thumbnail">
+        <p class="video-title">Video 14</p>
+        <p class="video-stats">Subscribers: 122K</p>
+      </a>
+    </div>
+    <div class="video">
+      <a href="https://www.youtube.com/@lbmovie1">
+        <img src="https://yt3.googleusercontent.com/H-Fzvt-XsAhar1nkdJa4lYxsQehyBq3jF0_bZCexz2uBAJOEae9YM4DOXqD0IjDN4l43Ccda5CA=s176-c-k-c0x00ffffff-no-rj-mo" alt="Video Thumbnail" class="video-thumbnail">
+        <p class="video-title">Video 1</p>
+        <p class="video-stats">Subscribers: 707</p>
+      </a>
+    </div>
+    <div class="video">
+      <a href="https://www.youtube.com/@lbotaku1">
+        <img src="https://yt3.googleusercontent.com/qmboS6ayPu9mO4LQgDNb2OnR6UoHjhO_9uFHtPhitVIjutb_N-q8DfbmL2N7-JRAEPHND9zJIg=s160-c-k-c0x00ffffff-no-rj" alt="Video Thumbnail" class="video-thumbnail">
+        <p class="video-title">Video 2</p>
+        <p class="video-stats">Subscribers: 6.7k</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
